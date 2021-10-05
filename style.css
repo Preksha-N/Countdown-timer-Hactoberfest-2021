@@ -36,6 +36,7 @@ a{
     font-size: large;
     margin-top: 5rem;
     font-family: sans-serif;
+    cursor: pointer;
 }
 .countdown-container{
     text-align: center;
