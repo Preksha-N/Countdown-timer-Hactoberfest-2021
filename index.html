@@ -6,32 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HACTOBERFEST-2021 TIMER</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="countdownIcon.jpeg" type="image/x-icon">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <h1><strong>Happy Hactoberfest!</strong></h1>
-    <h4>Time Remaining...</h4>
-    <div class="container">
-        <div class="countdown-container days-c">
-           <p class="wish" id ="days">0</p>
-           <span>Days</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">open source</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              
+            </ul>
+            <img src="img/hacktoberfest.png" alt="" srcset="">
+          </div>
         </div>
-        <div class="countdown-container hours-c">
-            <p class="wish" id ="hours">0</p>
-            <span>Hours</span>
-        </div>
-        <div class="countdown-container minutes-c">
-            <p class="wish" id ="minutes">0</p>
-            <span>Minutes</span>
-        </div>
-        <div class="countdown-container seconds-c">
-            <p class="wish" id ="seconds">0</p>
-            <span>Seconds</span>
-        </div>
-    </div>
-    <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Want to know more about Hactoberfest?</a>
+      </nav>
+          
+      <h1><strong>Happy Hactoberfest!</strong></h1>
+      <h4>Time Remaining...</h4>
+      <div class="container">
+          <div class="countdown-container days-c">
+              <p class="wish" id="days">0</p>
+              <span>Days</span>
+          </div>
+          <div class="countdown-container hours-c">
+              <p class="wish" id="hours">0</p>
+              <span>Hours</span>
+          </div>
+          <div class="countdown-container minutes-c">
+              <p class="wish" id="minutes">0</p>
+              <span>Minutes</span>
+          </div>
+          <div class="countdown-container seconds-c">
+              <p class="wish" id="seconds">0</p>
+              <span>Seconds</span>
+          </div>
+      </div>
+      <a id="link" href="https://hacktoberfest.digitalocean.com/" target="_blank">Want to know more about Hactoberfest?</a>
     <script src="script.js"></script>
+
+
+    
 </body>
 </html>
