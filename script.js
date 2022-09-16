@@ -3,7 +3,7 @@ const hours1 = document.getElementById('hours');
 const minutes1 = document.getElementById('minutes');
 const seconds1 = document.getElementById('seconds');
 
-const end ='10 Nov 2022';
+const end ='31 Oct 2021';
 
 function countdown(){
     const endDate = new Date(end);//passing countown date
