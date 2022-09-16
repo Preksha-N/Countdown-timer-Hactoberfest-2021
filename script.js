@@ -1,9 +1,9 @@
-const days1 =document.getElementById('days');
-const hours1 =document.getElementById('hours');
-const minutes1 =document.getElementById('minutes');
-const seconds1 =document.getElementById('seconds');
+const days1 = document.getElementById('days');
+const hours1 = document.getElementById('hours');
+const minutes1 = document.getElementById('minutes');
+const seconds1 = document.getElementById('seconds');
 
-const end ='31 Oct 2021';
+const end ='10 Nov 2022';
 
 function countdown(){
     const endDate = new Date(end);//passing countown date
