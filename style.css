@@ -1,20 +1,25 @@
 body{
     
-    background: linear-gradient(to right,pink, violet);
+    /* background: linear-gradient(to right,pink, violet); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 600px;
-    font-family: fantasy;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    background-image: url(https://pbs.twimg.com/card_img/1578125703404433408/NY8_MUvz?format=jpg&name=4096x4096);
+    color: white;
     
  }
+ h4{
+    margin-top: -2rem;
+}
 h1{
-    color: rgb(255, 94, 0);
+    color: rgb(255, 255, 255);
     font-weight: normal;
     font-size: 4rem;
-    margin-top: -4rem;
+    margin-top: -13rem;
     
 }
 .container{
@@ -32,16 +37,22 @@ h1{
     margin: 0 2rem;/*topbottom rightleft*/
 
 }
-a{
-    color: rgb(238, 46, 78);
-    font-size: large;
-    margin-top: 5rem;
-    font-family: sans-serif;
-    cursor: pointer;
-}
 .countdown-container{
     text-align: center;
 }
 .countdown-container span{
     font-size: 1.5rem;
+}
+footer{
+ position: absolute;
+ margin-top: 1200px;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: large;
+}
+a :hover{
+    font-size: larger;
+    color: aquamarine;
 }
